@@ -1,0 +1,17 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://kj:password@172.17.42.1:27017/db1
+  resources:
+    chain:
+      enabled: true
+#security:
+#  oauth2:
+#    client:
+#      clientId: a2ba5e6f8aab96922045
+#      clientSecret: 01004a1d421808fd39012dc26d8b8e96cf96102b
+#      accessTokenUri: https://github.com/login/oauth/access_token
+#      userAuthorizationUri: https://github.com/login/oauth/authorize
+#      clientAuthenticationScheme: form
+#    resource:
+#      userInfoUri: https://api.github.com/user
